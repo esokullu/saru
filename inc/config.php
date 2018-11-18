@@ -63,8 +63,8 @@
 |						displaying alerts for "next days" box on homepage
 |
 */
-define('LOCAL_PATH', '/local/path/to/saru/');
-define('URL_PATH', 'http://url-of-your-saru.org/');
+define('LOCAL_PATH', '/Users/groups/Code/saru/');
+define('URL_PATH', 'http://localhost:8001/');
 define('NB_RECORDS', 25);
 define('HASH_KEY', 'The quick brown fox jumped over the lazy dog.');
 define('DEBUG_MODE', 1);
@@ -73,7 +73,7 @@ define('COOKIE_LOGIN', 'sarulogin');
 define('COOKIE_EXPIRE', 2600000);
 define('SESSION_EXPIRE', 360000);
 define('TOKEN_PREFIX', 'saru_');
-define('LANG', 'french');
+define('LANG', 'english');
 define('NEXT_DAYS', '10');
 
 
@@ -91,11 +91,11 @@ define('NEXT_DAYS', '10');
 | DB_PWD	=>	the password for your DB ; locally, often blank or 'mysql' or 'root'.
 |
 */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'www.db4free.net');
 define('DB_PORT', '3306');
-define('DB_NAME', 'saru');
-define('DB_USER', 'root');
-define('DB_PWD', 'root');
+define('DB_NAME', 'sarutest');
+define('DB_USER', 'sarutest');
+define('DB_PWD', '');
 
 /*
 |--------------------------------------------------------------------------

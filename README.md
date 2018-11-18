@@ -12,3 +12,5 @@ Very simple to use, it allows to organise yours contacts and save your interacti
 More information on officie website : http://www.saru.fr/
 
 Saru is in french for now.
+
+## Installation

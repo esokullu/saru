@@ -35,6 +35,11 @@
 
 class French
 {
+
+	public $connection = "connexion";
+	public $username = "identifiant";
+	public $password = "mot de passe";
+
 	/* meetings */
 	public $meeting = "historique";
 	public $meetings = "Historique";

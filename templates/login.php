@@ -38,7 +38,7 @@ if( ! defined('LOCAL_PATH')) { exit; }
 ?>
 <div class="row-fluid">
 	<div id="login" class="span4 offset4">
-		<h1><img src="images/login.png" class="icon" alt="Connexion">Connexion</h1>
+		<h1><img src="images/login.png" class="icon" alt="<?php echo Utils::mb_ucfirst($lang->connection); ?>"><?php echo Utils::mb_ucfirst($lang->connection); ?></h1>
 
 		<?php
 		if(isset($message)):
@@ -46,7 +46,7 @@ if( ! defined('LOCAL_PATH')) { exit; }
 		endif;
 		?>
 		<form name="loginform" method="post" action="login.php">
-			<p><input type="text" name="username" id="username" class="" placeholder="Identifiant" value="<?php if(isset($username)):
+			<p><input type="text" name="username" id="username" class="" placeholder="<?php echo Utils::mb_ucfirst($lang->username); ?>" value="<?php if(isset($username)):
 				echo $username;
 			endif; ?>"></p>
 			<p><input type="password" name="password" id="password" class="" placeholder="Mot de passe"></p>
